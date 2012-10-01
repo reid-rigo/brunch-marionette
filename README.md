@@ -1,4 +1,6 @@
 brunch-marionette
 =================
 
-Brunch skeleton with jQuery and Backbone.Marionette
+NOT ready yet
+
+Brunch skeleton with Backbone.Marionette, jQuery, Mocha, normalize.css & HTML5 Boilerplate

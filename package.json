@@ -15,15 +15,14 @@
     "start": "brunch watch --server",
     "test": "brunch test"
   },
-  "dependencies": {
-    "javascript-brunch": ">= 1.0 < 1.5",
-    "css-brunch": ">= 1.0 < 1.5",
-    "handlebars-brunch": ">= 1.0 < 1.5",
-    "uglify-js-brunch": ">= 1.0 < 1.5",
-    "clean-css-brunch": ">= 1.0 < 1.5"
-  },
+  "dependencies": {},
   "devDependencies": {
     "brunch": "~1.4.4",
+    "javascript-brunch": ">= 1.0 < 1.5",
+    "uglify-js-brunch": ">= 1.0 < 1.5",
+    "css-brunch": ">= 1.0 < 1.5",
+    "clean-css-brunch": ">= 1.0 < 1.5",
+    "handlebars-brunch": ">= 1.0 < 1.5",
     "mocha": "~1.6.0",
     "jsdom": "~0.2.15"
   }

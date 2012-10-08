@@ -1,5 +1,3 @@
-// var app = require('application');
-
 module.exports = Backbone.Router.extend({
 
 	routes: {
@@ -7,7 +5,7 @@ module.exports = Backbone.Router.extend({
 	},
 
 	index: function() {
-		// app.layout.render();
+
 	}
 
 });

@@ -1,9 +1,7 @@
 var app = new Backbone.Marionette.Application();
-var IndexRouter = require('routes/index');
+var Router = require('router');
 
-app.vent.on("foo", function(){
-  alert("bar");
-});
+app.router = new Router();
 
 app.addRegions({
 	header: "header",
@@ -12,10 +10,15 @@ app.addRegions({
 	footer: "footer"
 });
 
-app.addInitializer(function(options) {
-	this.router = new IndexRouter();
-});
+var HeaderView = require('views/header'),
+		ContentView = require('views/content'),
+		FooterView = require('views/footer');
 
+app.addInitializer(function(options) {
+	app.header.show(new HeaderView());
+	app.content.show(new ContentView());
+	app.footer.show(new FooterView());
+});
 
 app.on("initialize:after", function(options) {
 	Backbone.history.start({pushState: true});

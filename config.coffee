@@ -13,7 +13,8 @@ exports.config =
           'vendor/scripts/json2.js',
           'vendor/scripts/backbone-0.9.2.js',
           'vendor/scripts/backbone.marionette-0.10.2.js',
-          'vendor/scripts/handlebars-1.0.rc.1.js'
+          'vendor/scripts/handlebars-1.0.rc.1.js',
+          'vendor/scripts/backbone.marionette.handlebars-0.2.0.js'
         ]
 
     stylesheets:
